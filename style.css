@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(46, 86, 103);
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.card{
+    width: 350px;
+    height: 450px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(243, 240, 240);
+    font-family: cursive;
+    border-radius: 5px;
+    background: linear-gradient(149deg, rgb(214, 214, 215) 0%, rgb(167, 170, 170) 0%);
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+h3{
+    position: relative;
+    color: rgb(251, 251, 252);
+    font-family: cursive;
+    top: -19px;
+    width: 350px;
+    height: 50px;
+    background-color: rgb(9, 9, 9);
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid white; 
+    color: rgb(247, 250, 253);
+    
+}
+.container{
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.cName,.cWeather{
+    color: white;
+}
+
+.text-center{
+    margin: 30px;
+}
